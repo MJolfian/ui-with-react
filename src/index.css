@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+  font-family: "circular-std";
+  src: url('assets/circular-std-medium-500.ttf') format("ttf");
+  /* font-weight: 400;
+  font-style: normal; */
+  font-display: swap;
+}
+
+@theme {
+    --font-circular-std: circular-std, sans-serif;
+    --font-inter: inter, sans-serif;
+    
+    /* colors */
+    --color-dark: #222831;
+    --color-light: #EEEEEE;
+    --color-orange: #FF5722;
+    --color-primary: #5D50C6;
+    --color-secondary: #F85E9F;
+}
